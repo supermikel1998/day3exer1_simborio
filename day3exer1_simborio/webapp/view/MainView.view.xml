@@ -28,7 +28,8 @@
                 </f:content>
             </f:SimpleForm>
         </VBox>
-        <Table id="idTableSCart" inset="false">
+        <core:Fragment fragmentName="com.training.day3exer1simborio.fragment.shoppingCart" type="XML" />
+        <!--<Table id="idTableSCart" inset="false">
             <headerToolbar>
                 <OverflowToolbar id="idOFT">
                     <content>
@@ -65,7 +66,7 @@
                             </cells>
                         </ColumnListItem>
                     </items>
-        </Table>
+        </Table> -->
         <footer>
             <OverflowToolbar id="idOFTFooter">
                 <ToolbarSpacer id="idTSpacerFooter"/>
